@@ -1,22 +1,40 @@
 *{
     font-family: 'Nunito', sans-serif;
+    margin: 10px;
 }
 
 body{
     background-color: #89D5D2;
 }
 
-nav{
+.navbar{
     background-color: rgba(250, 250, 250, 0.95);
     display: flex;
     padding: 10px;
-    margin: 0px;
+    align-items: center;
+    height: 5vh;
+    position: fixed;
+    top: 0;
+    width: 95%;
+}
+
+ul{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 10vw;
+}
+
+main{
+    margin-top: 9vh;
 }
 
 section{
     background-color: white;
-    width: 90%;
+    width: 95%;
+    margin: auto;
+    margin-top: 2vh;
     border-radius: 10px;
     padding: 10px;
-    display: flex;
 }
