@@ -1,10 +1,13 @@
-*{
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
-    margin: 10px;
 }
-
 body{
-    background-color: #89D5D2;
+    background-color: #4cbbb7;
 }
 
 .navbar{
@@ -15,7 +18,8 @@ body{
     height: 5vh;
     position: fixed;
     top: 0;
-    width: 95%;
+    width: 100%;
+    margin: 0;
 }
 
 ul{
@@ -28,6 +32,9 @@ ul{
 
 main{
     margin-top: 9vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 section{
@@ -36,5 +43,19 @@ section{
     margin: auto;
     margin-top: 2vh;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5vh;
+    height: 50vh;
+    margin: 3vh;
+ }
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.david{
+    height: 40vh;
+    margin-left: 5vh;
+}
+
