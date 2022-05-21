@@ -10,6 +10,13 @@ body{
     background-color: #4cbbb7;
 }
 
+/*font colors and sizes*/
+h2{
+    color: #4cbbb7;
+    font-size: 2rem;
+}
+
+/*navbar*/
 .navbar{
     background-color: rgba(250, 250, 250, 0.95);
     display: flex;
@@ -34,6 +41,31 @@ ul{
     padding-left: 10vw;
 }
 
+ul{
+    color: black;
+    text-decoration: none;
+}
+
+ul a:link{
+    text-decoration: none;
+}
+
+ul a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+ul a:hover{
+    color: #4cbbb7;
+    text-decoration: none;
+}
+
+ul a:actice{
+    text-decoration: none;
+    color: #4cbbb7;
+}
+
+/*main section*/
 main{
     margin-top: 9vh;
     display: flex;
@@ -41,9 +73,12 @@ main{
     align-items: center;
 }
 
-section{
+.home, 
+.services, 
+.testimonies, 
+.contact{
     background-color: white;
-    width: 95%;
+    width: 80%;
     margin: auto;
     margin-top: 2vh;
     border-radius: 10px;
@@ -63,3 +98,19 @@ section{
     margin-left: 5vh;
 }
 
+/*footer*/
+.footer{
+    width: 75%;
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer img{
+    width: 3vw;
+    
+}
+
+.footer .logo-transparent{
+    width: 10vw;
+}
